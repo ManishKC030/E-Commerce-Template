@@ -17,3 +17,11 @@ db.sqlite3
 
 # Environment variables
 .env
+
+*.log
+
+node_modules/
+
+static/css/output.css
+static/css/output.css.map
+
