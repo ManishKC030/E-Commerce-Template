@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_browser_reload",
 ]
 
 EXTERNAL_APPS = [
@@ -46,7 +47,8 @@ EXTERNAL_APPS = [
     "cart",
     "tailwind",
     "theme",
-    "django_browser_reload",
+    
+    
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + EXTERNAL_APPS
