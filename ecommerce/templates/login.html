@@ -1,16 +1,18 @@
+{% load static tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    {% tailwind_css %}
   </head>
   <body>
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div class="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
           class="mx-auto h-10 w-auto"
-          src=""
+          src="https://cdn-icons-png.flaticon.com/128/5264/5264565.png"
           alt="Your Company"
         />
         <h2
@@ -76,11 +78,11 @@
         </form>
 
         <p class="mt-10 text-center text-sm/6 text-gray-500">
-          Not a member?
+          Don't have an account?
           <a
             href="#"
             class="font-semibold text-indigo-600 hover:text-indigo-500"
-            >Start a 14 day free trial</a
+            >Sign Up Now</a
           >
         </p>
       </div>
