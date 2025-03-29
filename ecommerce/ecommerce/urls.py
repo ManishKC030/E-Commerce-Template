@@ -26,4 +26,5 @@ urlpatterns = [
     path("products/", include("products.urls")),
     path("cart/", include("cart.urls")),
     path("login/", views.login, name="login"),
+    path("asd", views.notFound, name="404 error"),
 ]
