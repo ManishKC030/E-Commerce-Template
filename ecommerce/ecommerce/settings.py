@@ -47,8 +47,6 @@ EXTERNAL_APPS = [
     "cart",
     "tailwind",
     "theme",
-    
-    
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + EXTERNAL_APPS
@@ -95,19 +93,14 @@ WSGI_APPLICATION = "ecommerce.wsgi.application"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'your_mysql_user',
-        'PASSWORD': 'your_mysql_password',
-        'HOST': 'localhost',  # Use '127.0.0.1' or your database server's IP
-        'PORT': '3306',  # Default MySQL port
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        }
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "djangodb",
+        "USER": "root",
+        "HOST": "127.0.0.1",  # Use '127.0.0.1' or your database server's IP
+        "PORT": "3306",  # Default MySQL port
     }
 }
-
 
 
 # Password validation
