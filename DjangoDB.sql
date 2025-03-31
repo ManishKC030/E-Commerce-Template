@@ -47,7 +47,7 @@ CREATE TABLE products (
     image3 VARCHAR(255),
     image4 VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE SET NULL,
+    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE,
     FOREIGN KEY (admin_id) REFERENCES admins(admin_id) ON DELETE CASCADE
 );
 
